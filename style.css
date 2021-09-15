@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  .h2
+  {
+   color:white;
+    background-color:#000000d0;
+  
+  }
+  
+  /*body{
+    font-family: "Nunito",sans-serif;
+    background-color: darkgray;
+    animation: example 10s linear 10s infinite alternate;
+  }*/
+  body
+  {
+    background-image: url("https://source.unsplash.com/1600x900/?wheather");
+  }
+
+  
+  .input{
+    text-align: center;
+    margin: 50px ; 
+    color:white;
+  }
+  
+  input[type="submit"]{
+    padding: 15px ;
+    background: black;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+  .input input[type="text"]{
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    background-color:#000000d0;
+    border-color: black;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    color:white ;
+  }
+  .input_text:hover
+  {
+    color: white;
+    transition: all 0.4 ease 0s;
+    font-size: 250%;
+  }
+  #submit{
+    color:white;
+    border-radius: 20px;
+    background-color:#000000d0;
+    border-color: black;
+  }
+  #submit:hover
+  {
+    color:white;
+    transition: all 0.4s ease 0s;
+    font-size: 250%;
+    border-radius: 20px;
+
+  }
+  #temp-icon
+{
+    margin: 1 px;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+}
+  .card{
+    width: 50%;
+    background-color:#000000d0;
+    height: 60vh;
+    width: 60vh;
+    margin: 50px auto;
+    border-radius: 50px;
+    color:white;
+    box-shadow: 20px 30px 10px white;
+ }
+  .card:hover
+  {
+    color:white;
+    transition: all 0.4s ease 0s;
+    font-size: 100%;
+    border-radius: 80px;
+  }
+
+  .close{
+    float: right;
+    margin-top: -20px;
+    cursor: pointer;
+    margin-right: 20px;
+ }
+  
+  .card h1{
+    padding: 5px ;
+    text-align: center;
+  
+  }
+  
+  .card p{
+    text-align: center;
+    margin:40px;
+    font-size:  30px;
+    backdrop-filter: blur(5px);
+  
+  }
+  .h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+  }
+  
+  /*.h2{
+    animation: example 10s linear 1s infinite alternate;
+    padding: 20px;
+    align-items: center;
+    box-shadow:20px 20px 20px white;
+  }
+  @keyframes example {
+    0%   {background-color:red; }
+    25%  {background-color:yellow;}
+    50%  {background-color:blue;}
+    75%  {background-color:green; }
+    100% {background-color:red; }
+  }*/
+
+  @media only screen and (max-width:856px)
+  {
+      .card {
+        width: 950px;
+      padding: auto;
+      }  
+      .h2
+      {
+        width: 1000px;
+      }
+      .input
+      {
+        width: 900px;
+      }
+  }
+
+
+
+  /*html
+  {
+    font-size: 62.5%;
+  }
+  @media(max-width:998px) {
+    html{
+      font-size: 55%;
+    }
+    
+  }
+  @media(max-height:768px) {
+    html{
+      font-size: 45%;
+    }
+  }   
+  
